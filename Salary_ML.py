@@ -114,6 +114,7 @@ def main():
 
     r2_scores_test, r2_scores_train, lm_model, X_train, X_test, y_train, y_test = find_optimal_lm_mod(X, y, cutoffs, plot=False)
     print('Finished Finding the Best Model')
+	print('Checked')
     return lm_model
 
 
